@@ -32,8 +32,8 @@ This tool helps developers, solutions engineers, and data teams quickly inspect 
 ## 🚀 Getting Started
   ### 1. Clone the Repo
   ```bash
-git clone https://github.com/your-username/weaviate-schema-explorer.git
-cd weaviate-schema-explorer
+git clone https://github.com/hamdih/schema-dashboard-se.git
+cd schema-dashboard-se
   ```
   ### 2. Install Dependencies
 Make sure you have Python 3.9+ installed, then run:
