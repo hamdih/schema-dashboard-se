@@ -30,33 +30,29 @@ This tool helps developers, solutions engineers, and data teams quickly inspect 
 ---
 
 ## 🚀 Getting Started
-
-### 1. Clone the Repo
-```bash
+  ### 1. Clone the Repo
+  ```bash
 git clone https://github.com/your-username/weaviate-schema-explorer.git
 cd weaviate-schema-explorer
-
-### 2. **Install Dependencies**
-
+  ```
+  ### 2. Install Dependencies
 Make sure you have Python 3.9+ installed, then run:
-
 ```bash
 pip install -r requirements.txt
+```
 Your requirements.txt should look like this:
-
-txt
-Copy code
+```txt
 streamlit>=1.36.0
 pandas>=2.0.0
-Run the App
-
-bash
-Copy code
+``` 
+  ### 3. Run the App
+ ```bash
 streamlit run app.py
-Upload Your Schema
+``` 
+  ### 4. Upload your Schema
+1. Export your Weaviate schema as JSON (via weaviate schema dump or the API).
+2. Upload it via the file uploader in the UI.
+3. Explore collections, configs, and properties interactively.
 
-Export your Weaviate schema as JSON (via weaviate schema dump or API).
 
-Upload it via the file uploader in the UI.
-
-Explore collections, configs, and properties interactively.
+ 
